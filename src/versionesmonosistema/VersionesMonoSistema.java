@@ -24,9 +24,12 @@ public class VersionesMonoSistema {
     }
     public static void main(String[] args) {
         // TODO code application logic here
+        Contador recuenta = new Contador();
         System.out.println("Proyecto para probar el control de versiones en un único sistema.");
         setValor(7);
         System.out.println("Valor= "+getValor());
+        recuenta.setCuenta(1);
+        System.out.println("Contador= "+recuenta.getCuenta());
     }
     
 }
