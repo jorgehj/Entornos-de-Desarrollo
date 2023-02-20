@@ -29,7 +29,7 @@ public class VersionesMonoSistema {
         setValor(12);
         System.out.println("Valor= "+getValor());
         recuenta.setCuenta(1);
-        System.out.println("Contador= "+recuenta.getCuenta());
+        System.out.println("Contador = "+recuenta.getCuenta());
     }
     
 }
