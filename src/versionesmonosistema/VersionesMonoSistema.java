@@ -25,7 +25,7 @@ public class VersionesMonoSistema {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Proyecto para probar el control de versiones en un único sistema.");
-        setValor(7);
+        setValor(9);
         System.out.println("Valor= "+getValor());
     }
     
